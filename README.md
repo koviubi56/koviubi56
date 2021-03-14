@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @koviubi56
 - 👀 I’m interested in python
 - 🌱 I’m currently learning python
-<!--- - 💞️ I’m looking to collaborate on ... --->
+- 📫 Contact me [here](https://github.com/koviubi56/koviubi56/discussions)
 
 <!---
 koviubi56/koviubi56 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
