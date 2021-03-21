@@ -1,0 +1,11 @@
+```diff
+if example == "Milk":
+    pass
+elif example == "Orange juice":
+    pass
+- else:
++ elif example == "Water":
+    pass
++ else:
++   error()
+```
