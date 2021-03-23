@@ -5,5 +5,6 @@
 - ➗ Changed
 - ➖ Removed
 - ➕ Added
+- 🔨 Fixed
 - ↪️ From this, to this (old ↪️ new)
 - ⬅️ Oops. Back!
