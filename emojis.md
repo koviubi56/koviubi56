@@ -2,7 +2,7 @@
 - ➡️ Merge (from ➡️ to)
 # File/wiki page add/change/remove description
 - 🆕 New version
-- ➗ Changed
+- ± Changed
 - ➖ Removed
 - ➕ Added
 - 🔨 Fixed
