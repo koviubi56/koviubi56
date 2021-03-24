@@ -1,11 +1,11 @@
 ```diff
 if example == "Milk":
-    pass
+    win()
 elif example == "Orange juice":
-    pass
+    lose()
 - else:
 + elif example == "Water":
-    pass
+    draw()
 + else:
 +   error()
 ```
