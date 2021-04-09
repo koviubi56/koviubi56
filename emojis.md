@@ -9,4 +9,4 @@
 - ↪️ From this, to this (old ↪️ new)
 - ⬅️ Oops. Back!
 # humans.md
-https://allcontributors.org/docs/en/emoji-key (there are some exceptesions)
+https://allcontributors.org/docs/en/emoji-key (there are some exceptions)
