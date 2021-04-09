@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "koviubi56",
+      "name": "koviubi56",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58398849?v=4",
+      "profile": "https://github.com/koviubi56",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "koviubi56",
+  "projectOwner": "koviubi56",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
