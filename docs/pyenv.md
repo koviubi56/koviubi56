@@ -6,14 +6,20 @@ The good old problem. First what happened/what do you see? _(please click)_
 
 Or
 
-[Something else](#else)
+[ModuleNotFoundError](#ModuleNotFoundError)
+
+_If you got an exception other than `ModuleNotFoundError` we cannot help. Try resolving it, and/or tell it to the package's developers._
+
+---
 
 ### Pylance
 
 First, make sure you installed the package. After installing it, reload VS Code (`workbench.action.reloadWindow`).
-If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#else).
+If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#ModuleNotFoundError).
 
-### Else
+---
+
+### ModuleNotFoundError
 
 The most common error, is that the package is installed, _in the wrong environment_.
 
@@ -57,7 +63,7 @@ Run it. Yayy, you opened the terminal!
 
 ![Yayy!](/assets/pyenv-winterminal-terminal.jpg)
 
-[Go back](#else)
+[Go back](#ModuleNotFoundError)
 
 ---
 
