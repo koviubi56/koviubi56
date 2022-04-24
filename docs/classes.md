@@ -4,7 +4,7 @@ A class is basically a container for keys and values, and it has some methods.
 
 To make an instance of a class (an object) just type `NameOfTheClass()`, so you call the class like a function. This will return an instance, you should assign it to a variable, so you can use it later.
 
-```py
+```pycon
 >>> instance = bool()
 >>> instance
 False
@@ -12,7 +12,7 @@ False
 
 ### Make a class
 
-```py
+```pycon
 >>> class MyClass:
 ...     pass
 
@@ -27,7 +27,7 @@ With the `__init__` method you can initialize the instance.
 Please note, that `__init__` does **not** _create_ the instance!
 `__init__` must return `None` (or should not return).
 
-```py
+```pycon
 >>> class MyClass:
 ...     def __init__(self):
 ...         self.instance_variable = 56
@@ -47,7 +47,7 @@ True
 With the `__new__` method you can create an instance of a class.
 Unless you absolutely need it, use `__init__` instead!
 
-```py
+```pycon
 >>> class MyFirstClass:
 ...     def __new__(cls):
 ...         # The argument cls would be MyFirstClass
@@ -77,7 +77,7 @@ False
 
 To make class variables with dataclasses, mark it with `typing.ClassVar`.
 
-```py
+```pycon
 >>> import typing
 >>> import dataclasses
 >>> @dataclasses.dataclass
