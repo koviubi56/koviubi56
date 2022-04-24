@@ -17,13 +17,30 @@ If you did everything right, the message should have disappeared. If it did not,
 
 The most common error, is that the package is installed, _in the wrong environment_.
 
-What operating system do you use? _(please click)_
+Open up the terminal _([Need more help with Windows?](#win-terminal))_.
 
-[Windows](#os-windows) or [Something else](#os-else)
+If you're on Windows, run `py -3 -m pip install <packagename>`, otherwise `python3 -m pip install <packagename>`. Of course, **replace `<packagename>` with the package's name** (without the `<>`)!
 
-#### OS Windows
+For example (if you're on Windows): `py -3 -m pip install pygame`
 
-Open up the terminal _([Need more help?](#win-terminal))_.
+Now, run your code _still in the terminal_
+
+If you're on Windows, run `py -3 <file>`, otherwise `python3 -m pip install <file>`. Of course, **replace `<file>` with the path to your code** (without the `<>`)!
+
+For example (if you're on Windows): `py -3 main.py`.
+
+Did it work as expected? _(please click)_
+
+[![Yes, it did!](/assets/yes.png)](#yes)
+[![No, it did not!](/assets/no.png)](#no)
+
+#### Yes
+
+Well done! If you tried to run it in your text editor, and it did not work, make sure that it is set to the right environment _([Need more help with VS Code?](#selectenv-vscode))_.
+
+#### No
+
+Hmm... interesting. You should check out [the official Python documentation for installing packages](https://packaging.python.org/en/latest/tutorials/installing-packages/). It might help.
 
 ---
 
@@ -39,3 +56,39 @@ Run it. Yayy, you opened the terminal!
 ![Click on "cmd.exe"](/assets/pyenv-winterminal-searchcmd.png)
 
 ![Yayy!](/assets/pyenv-winterminal-terminal.jpg)
+
+---
+
+### Selectenv VSCode
+
+First, get the version of python.
+
+If you're on Windows, run `py -3 -VV`, otherwise `python3 -VV`. Remember what it says.
+
+Now, open up a python file (in VS Code). Click on the _Select interpreter_ button, in the corner in the status bar.
+
+Now select the interpreter that is the colsest to the one that python said above in the terminal.
+
+---
+
+#### Windows
+
+![Type in "py -3 -VV"](/assets/pyenv-vscode-winpyver.png)
+
+![Click on "Select interpreter"](/assets/pyenv-vscode-interpreter.png)
+
+![Select the closest one](/assets/pyenv-vscode-winforme.png)
+
+---
+
+#### Other
+
+I used Ubuntu (WSL).
+
+![Type in "python3 -VV"](/assets/pyenv-vscode-ubuntupyver.png)
+
+![Click on "Select interpreter"](/assets/pyenv-vscode-interpreter.png)
+
+![Select the closest one](/assets/pyenv-vscode-ubuntuforme.png)
+
+---
