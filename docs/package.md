@@ -17,7 +17,7 @@ What do you see? _(please click)_
 
 [![I see "Command not found"](/assets/package-notfound1.png)](#notfound)
 
-[`NameError: name 'python' is not defined`](#nameerror)
+[`[Clickable] NameError: name 'python' is not defined`](#nameerror)
 
 ---
 
@@ -35,6 +35,8 @@ If you're on Windows, make sure that you wrote `py --version`.
 If you're _**not**_ on Windows, make sure that you wrote `python3 --version`.
 
 If you _still_ get an error, try to install python from [python.org](https://www.python.org/) or refer to the [Installing Python](https://docs.python-guide.org/starting/installation/#installation) section of the Hitchhiker’s Guide to Python.
+
+If you're done, [start again](#).
 
 ---
 

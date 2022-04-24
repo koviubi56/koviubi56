@@ -48,7 +48,7 @@ Well done! If you tried to run it in your text editor, and it did not work, make
 
 #### No
 
-Hmm... interesting. You should check out [the official Python documentation for installing packages](https://packaging.python.org/en/latest/tutorials/installing-packages/). It might help.
+Hmm... interesting. You should check out [our guide for installing packages](/koviubi56/package). It might help.
 
 ---
 
