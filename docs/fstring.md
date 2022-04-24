@@ -18,8 +18,6 @@ Then this is your lucky day!
 >>> f"jumps {var = }"
 "jumps var = 'hello'"
 >>> dct = {"well": "hello"}
->>> f'over {dct["well"]} the'
-'over hello the'
 >>> try:
 ...     f"over {dct["well"]} the"
 ... except SyntaxError:
