@@ -1,5 +1,7 @@
 ## Problems with imports, environemts
 
+_After you're done, **please** give us some [feedback](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/). It would **really** help us make this website better for everyone._
+
 The good old problem. First what happened/what do you see? _(please click)_
 
 [![Pylance gave me an error](/assets/pyenv-pylance.png)](#pylance)
@@ -8,7 +10,7 @@ Or
 
 [ModuleNotFoundError](#ModuleNotFoundError)
 
-_If you got an exception other than `ModuleNotFoundError` we cannot help. Try resolving it, and/or tell it to the package's developers._
+_If you got an exception other than `ModuleNotFoundError` this page probably will **not** help._
 
 ---
 
