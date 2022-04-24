@@ -22,10 +22,11 @@ Then this is your lucky day!
 >>> f"over {dct['well']} the"
 'over hello the'
 >>> #~          !    !      ~
->>> f"over {dct["well"]} the"
-Traceback (most recent call last):
-SyntaxError: invalid syntax
-
+>>> try:
+...     f"over {dct["well"]} the"
+... except SyntaxError:
+...     "Oh no!"
+'Oh no!'
 ```
 
 [Video: "Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'"](https://youtu.be/BxUxX1Ku1EQ)
