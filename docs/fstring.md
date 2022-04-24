@@ -8,7 +8,7 @@ Then this is your lucky day!
 "Hi! I'm a useless f-string."
 >>> f"The {True}"
 'The True'
->>> f"quick {float("3.14")}"
+>>> f'quick {float("3.14")}'
 'quick 3.14'
 >>> var = "hello"
 >>> f"brown {var}"
@@ -24,7 +24,7 @@ Then this is your lucky day!
 >>> #~          !    !      ~
 >>> f"over {dct["well"]} the"
 Traceback (most recent call last):
-SyntaxError: f-string: unmatched '['
+SyntaxError: invalid syntax
 
 ```
 
