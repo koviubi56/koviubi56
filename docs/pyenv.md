@@ -38,4 +38,4 @@ Run it. Yayy, you opened the terminal!
 
 ![Click on "cmd.exe"](/assets/pyenv-winterminal-searchcmd.png)
 
-![Yayy!](/assets/pyenv-winterminal-terminal.png)
+![Yayy!](/assets/pyenv-winterminal-terminal.jpg)
