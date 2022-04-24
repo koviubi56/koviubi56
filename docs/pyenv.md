@@ -57,6 +57,8 @@ Run it. Yayy, you opened the terminal!
 
 ![Yayy!](/assets/pyenv-winterminal-terminal.jpg)
 
+[Go back](#else)
+
 ---
 
 ### Selectenv VSCode
