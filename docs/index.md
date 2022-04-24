@@ -9,3 +9,4 @@ Do you want to get help with
 - [regex and re?](/koviubi56/rtfd#regex)
 - [selenium?](/koviubi56/rtfd#selenium)
 - [pip and installing packages?](/koviubi56/package)
+- [classes?](/koviubi56/classes)
