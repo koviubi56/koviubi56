@@ -31,8 +31,8 @@ For example (if you're on Windows): `py -3 main.py`.
 
 Did it work as expected? _(please click)_
 
-[![Yes, it did!](/assets/yes.png)](#yes)
-[![No, it did not!](/assets/no.png)](#no)
+<a href="#yes"><img src="/koviubi56/assets/yes.png" alt="Yes, it did!" style="width: 5em;"></a>
+<a href="#no"><img src="/koviubi56/assets/no.png" alt="No, it did not!" style="width: 5em;"></a>
 
 #### Yes
 
