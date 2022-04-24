@@ -9,14 +9,14 @@ Hi world!
 
 ### Mainly examples with some explanation
 
-- [classes?](/koviubi56/classes)
-- [exiting from your code?](/koviubi56/close)
-- [f-strings?](/koviubi56/fstring)
-- [built-in `input()`](/koviubi56/input)
+- [Classes](/koviubi56/classes)
+- [Exiting from your code](/koviubi56/close)
+- [F-strings](/koviubi56/fstring)
+- [Built-in `input()`](/koviubi56/input)
 
 
 ### Documentation
 
-- [discord.py?](/koviubi56/rtfd#discordpy)
-- [regex and re?](/koviubi56/rtfd#regex)
-- [selenium?](/koviubi56/rtfd#selenium)
+- [discord.py](/koviubi56/rtfd#discordpy)
+- [regex and re](/koviubi56/rtfd#regex)
+- [Selenium](/koviubi56/rtfd#selenium)
