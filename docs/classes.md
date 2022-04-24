@@ -8,6 +8,7 @@ To make an instance of a class (an object) just type `NameOfTheClass()`, so you 
 >>> instance = bool()
 >>> instance
 False
+
 ```
 
 ### Make a class
@@ -19,6 +20,7 @@ False
 >>> instance = MyClass()
 >>> isinstance(instance, MyClass)
 True
+
 ```
 
 ### `__init__`
@@ -40,6 +42,7 @@ True
 >>> var.instance_variable = "Something new"
 >>> var.instance_variable
 'Something new'
+
 ```
 
 [Video: "Defining \_\_init\_\_"](https://youtu.be/AjYOMk-4NIU)
@@ -73,6 +76,7 @@ True
 42
 >>> isinstance(second_inst, MySecondClass)
 False
+
 ```
 
 [Video: "\_\_new\_\_ vs \_\_init\_\_ in Python"](https://youtu.be/-zsV0_QrfTw)
@@ -100,4 +104,5 @@ False
 >>> MyClass.arg
 Traceback (most recent call last):
 AttributeError: type object 'MyClass' has no attribute 'arg'
+
 ```

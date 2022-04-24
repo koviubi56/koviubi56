@@ -25,6 +25,7 @@ Then this is your lucky day!
 >>> f"over {dct["well"]} the"
 Traceback (most recent call last):
 SyntaxError: f-string: unmatched '['
+
 ```
 
 [Video: "Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'"](https://youtu.be/BxUxX1Ku1EQ)
