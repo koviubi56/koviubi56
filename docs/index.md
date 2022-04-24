@@ -5,8 +5,11 @@ Hi world!
 Do you want to get help with
 
 - [imports, environments, and ModuleNotFoundErrors?](/koviubi56/pyenv)
-- [discord.py?](/koviubi56/rtfd#discord.py)
+- [discord.py?](/koviubi56/rtfd#discordpy)
 - [regex and re?](/koviubi56/rtfd#regex)
 - [selenium?](/koviubi56/rtfd#selenium)
 - [pip and installing packages?](/koviubi56/package)
 - [classes?](/koviubi56/classes)
+- [exiting from your code?](/koviubi56/close)
+- [f-strings?](/koviubi56/fstring)
+- [built-in `input()`](/koviubi56/input)

@@ -42,6 +42,8 @@ True
 'Something new'
 ```
 
+[Video: "Defining __init__"](https://youtu.be/AjYOMk-4NIU)
+
 ### `__new__`
 
 With the `__new__` method you can create an instance of a class.
@@ -72,6 +74,8 @@ True
 >>> isinstance(second_inst, MySecondClass)
 False
 ```
+
+[Video: "__new__ vs __init__ in Python"](https://youtu.be/-zsV0_QrfTw)
 
 ### Class variables for dataclasses
 
