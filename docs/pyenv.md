@@ -8,7 +8,7 @@ The good old problem. First what happened/what do you see? _(please click)_
 
 Or
 
-[ModuleNotFoundError](#ModuleNotFoundError)
+[ModuleNotFoundError](#modulenotfounderror)
 
 _If you got an exception other than `ModuleNotFoundError` this page probably will **not** help._
 
