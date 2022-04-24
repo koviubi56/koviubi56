@@ -1,8 +1,4 @@
 language: python
-python: 3.9
-cache: pip
-before_install:
-  - python3 -m pip install --upgrade pip setuptools wheel
 script:
   - cd docs
   - for file in *; do      if [ -f "$file" ]; then          python3 -m doctest $file ;     fi ; done
