@@ -42,7 +42,7 @@ True
 'Something new'
 ```
 
-[Video: "Defining __init__"](https://youtu.be/AjYOMk-4NIU)
+[Video: "Defining \_\_init\_\_"](https://youtu.be/AjYOMk-4NIU)
 
 ### `__new__`
 
@@ -75,7 +75,7 @@ True
 False
 ```
 
-[Video: "__new__ vs __init__ in Python"](https://youtu.be/-zsV0_QrfTw)
+[Video: "\_\_new\_\_ vs \_\_init\_\_ in Python"](https://youtu.be/-zsV0_QrfTw)
 
 ### Class variables for dataclasses
 
