@@ -27,6 +27,7 @@ Then this is your lucky day!
 ... except SyntaxError:
 ...     "Oh no!"
 'Oh no!'
+
 ```
 
 [Video: "Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'"](https://youtu.be/BxUxX1Ku1EQ)
