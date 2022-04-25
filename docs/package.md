@@ -175,3 +175,19 @@ And you are done! Goodbye!
 **Warning**: Using `get-pip.py` may require root or administrator privileges.
 
 [Go back](#pyver)
+
+---
+
+### Other guides
+
+- https://blog.quantinsti.com/installing-python-packages/#pypi
+- https://docs.python.org/3/installing/index.html
+- https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip
+
+Advanced:
+- https://stackoverflow.com/a/51646354
+<!-- TODO: ^^^^^^^^^^^^ -->
+
+- [Video: "Python Tutorial - 12.1 - Install Python Module (using pip)"](https://youtu.be/bij66_Jtoqs)
+- [Video: "Python Tutorial for Beginners 53 - How to use Pip and PyPI for managing Python packages"](https://youtu.be/sIan8TOz0GA?t=123)
+- [Video: "Python pip 🏗️"](https://youtu.be/9z7gGUbAj5U)

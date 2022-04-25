@@ -106,3 +106,13 @@ Traceback (most recent call last):
 AttributeError: type object 'MyClass' has no attribute 'arg'
 
 ```
+
+### Other guides
+
+- https://www.w3schools.com/python/python_classes.asp
+- https://docs.python.org/3/tutorial/classes.html
+- https://www.geeksforgeeks.org/python-classes-and-objects/
+
+- [Video: "Python Classes and Objects || Python Tutorial || Learn Python Programming"](https://youtu.be/apACNr7DC_s)
+- [Video: "Python Object Oriented Programming (OOP) - For Beginners"](https://youtu.be/JeznW_7DlB0)
+- [Video: "Classes and Objects with Python - Part 1 (Python Tutorial #9)"](https://youtu.be/wfcWRAxRVBA)

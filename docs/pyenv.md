@@ -8,7 +8,7 @@ The good old problem. First what happened/what do you see? _(please click)_
 
 Or
 
-[ModuleNotFoundError](#modulenotfounderror)
+[ModuleNotFoundError](#is-relative)
 
 _If you got an exception other than `ModuleNotFoundError` this page probably will **not** help._
 
@@ -18,6 +18,55 @@ _If you got an exception other than `ModuleNotFoundError` this page probably wil
 
 First, make sure you installed the package. After installing it, reload VS Code (`workbench.action.reloadWindow`).
 If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
+
+---
+
+### Is relative
+
+Is the file that you are trying to import next to the file you try to import it from ("relative import")? _(please click)_
+
+<a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a>
+<a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a>
+
+Yes:
+
+```py
+# |-- file1.py
+# |-- file2.py
+
+# file1.py
+import file2
+# This IS a relative import (yes)
+
+# file2.py
+something = "This does not matter"
+```
+
+No:
+```py
+# |-- file.py
+
+# file.py
+import numpy
+# This is NOT a relative import (no)
+```
+
+---
+
+### Relative
+
+Refer to: https://stackoverflow.com/a/43859946
+
+The guide is over. Bye!
+
+---
+
+### Did you install
+
+Did you [install the package](/koviubi56/package)? _(please click)_
+
+<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="/koviubi56/package"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -102,3 +151,8 @@ I used Ubuntu (WSL).
 ![Select the closest one](/assets/pyenv-vscode-ubuntuforme.png)
 
 ---
+
+### Other guides
+
+- https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/
+- https://careerkarma.com/blog/python-modulenotfounderror/
