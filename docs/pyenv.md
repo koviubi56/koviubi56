@@ -1,6 +1,6 @@
 ## Problems with imports, environemts
 
-_After you're done, **please** give us some [feedback](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/). It would **really** help us make this website better for everyone._
+_After you're done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
 
 The good old problem. First what happened/what do you see? _(please click)_
 
@@ -27,6 +27,11 @@ Is the file that you are trying to import next to the file you try to import it 
 
 <a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a>
 <a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a>
+<a href="#help-relative"><img src="/koviubi56/assets/what.png" alt="What? I don't get it." style="width: 5em;"></a>
+
+---
+
+#### Help relative
 
 Yes:
 
@@ -43,13 +48,15 @@ something = "This does not matter"
 ```
 
 No:
-```py
-# |-- file.py
 
-# file.py
+```py
 import numpy
 # This is NOT a relative import (no)
 ```
+
+If you now know it, click [here](#is-relative)!
+
+If you still don't get it, please, [give us your feedback](#feedback)!
 
 ---
 
@@ -145,6 +152,13 @@ I used Ubuntu (WSL).
 ![Click on "Select interpreter"](/assets/pyenv-vscode-interpreter.png)
 
 ![Select the closest one](/assets/pyenv-vscode-ubuntuforme.png)
+
+---
+
+### Feedback
+
+Thank you very much!
+You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/)!
 
 ---
 
