@@ -128,8 +128,6 @@ Now, open up a python file (in VS Code). Click on the _Select interpreter_ butto
 
 Now select the interpreter that is the colsest to the one that python said above in the terminal.
 
----
-
 #### Windows
 
 ![Type in "py -3 -VV"](/assets/pyenv-vscode-winpyver.png)
@@ -137,8 +135,6 @@ Now select the interpreter that is the colsest to the one that python said above
 ![Click on "Select interpreter"](/assets/pyenv-vscode-interpreter.png)
 
 ![Select the closest one](/assets/pyenv-vscode-winforme.png)
-
----
 
 #### Other
 
