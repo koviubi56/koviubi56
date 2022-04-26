@@ -28,6 +28,83 @@ Do you hate using `+` to put two strings together? Then this is your lucky day!
 
 ```
 
+### Recap
+
+1. Make an f-string. `var = "fox"`. Print out `Hello quick brown fox` using an f-string (`fox` should be the variable `var`).
+2. Make an f-string. `var = "fox"`. Print out `Hello quick brown 'fox'` using an f-string (`fox` should be the variable `var`).
+3. Make an f-string. `my_dict = {"dog": "lazy"}`. Print out `The dog is lazy` using an f-string (`lazy` should be the `my_dict`'s `dog`).
+
+The answers can be found [here](#recap-answers).
+
+---
+
+This is only here, so this text can hide the code below, which is the answer to the question.
+
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+
+---
+
+#### Recap answers
+
+```py
+# ========== SPOILER ==========
+
+# 1:
+var = "fox"
+print(f"Hello quick brown {var}")
+
+# 2:
+var = "fox"
+print(f"Hello quick brown {var!r}")
+#                          ~~~~~
+#            Or you could just use `repr(var)`
+
+# 3:
+my_dict = {"dog": "lazy"}
+print(f"The dog is {my_dict['dog']}")
+# ----- OR -----
+my_dict = {"dog": "lazy"}
+print(f'The dog is {my_dict["dog"]}')
+```
+
 ### Other guides
 
 - [https://datagy.io/python-f-strings/](https://datagy.io/python-f-strings/)

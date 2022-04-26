@@ -104,6 +104,83 @@ AttributeError: type object 'MyClass' has no attribute 'arg'
 
 ```
 
+### Recap
+
+1. Make a simple class named `MyClass`, that does nothing.
+2. Make a simple class named `MyClass`. It should have an argument named `arg`. That argument should be stored in `self.arg`.
+3. Make a dataclass named `Person`. It should have a `name` (`str`) and an `age` (`int`).
+
+The answers can be found [here](#recap-answers).
+
+---
+
+This is only here, so this text can hide the code below, which is the answer to the question.
+
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+
+---
+
+#### Recap answers
+
+```py
+# ========== SPOILER ==========
+
+# 1:
+class MyClass:
+    pass
+
+# 2:
+class MyClass:
+    def __init__(self, arg):
+        self.arg = arg
+
+# 3:
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+    name: str
+    age: int
+```
+
 ### Other guides
 
 - [https://www.w3schools.com/python/python_classes.asp](https://www.w3schools.com/python/python_classes.asp)

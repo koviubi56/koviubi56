@@ -47,6 +47,85 @@ print(name)
 # Print the variable (the name)
 ```
 
+### Recap
+
+1. Get and print out the name of the user.
+2. Get the agr of the user. If the user is under 18, print "no", otherwise print "yes".
+3. Get the input of the user. The prompt should be "Do you want to continue? [Y/n] ". If the user types "n", print "bye". Otherwise, print "continue".
+
+The answers can be found [here](#recap-answers).
+
+---
+
+This is only here, so this text can hide the code below, which is the answer to the question.
+
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+- Spoiler below
+
+---
+
+#### Recap answers
+
+```py
+# ========== SPOILER ==========
+
+# 1:
+name = input("What is your name? ")
+print(name)
+
+# 2:
+ans = int(input("How old are you? "))
+if ans < 18:
+    print("no")
+else:
+    print("yes")
+
+# 3:
+ans = input("Do you want to continue? [Y/n] ")
+if ans == "n":
+    print("bye")
+else:
+    print("continue")
+
+```
+
 ### Other guides
 
 - [https://www.w3schools.com/python/python_user_input.asp](https://www.w3schools.com/python/python_user_input.asp)
