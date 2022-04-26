@@ -18,6 +18,8 @@ print(ans)
 ans = input("How old are you? ")
 if ans < 18:  # !!!!! ERROR: TypeError: '<' not supported between instances of 'str' and 'int'>
     print("no")
+if ans == 0:  # Will never work
+    print("no")
 
 # Instead, do this:
 # Convert str (text) to int (number)
@@ -26,6 +28,8 @@ ans = int(input("How old are you? "))
 #         ~~~~~~~~~~~~~~~~~~~~~~~~~~
 #               Get str (text)
 if ans < 18:  # OK
+    print("no")
+if ans == 0:  # OK
     print("no")
 ```
 
