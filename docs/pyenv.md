@@ -16,8 +16,7 @@ _If you got an exception other than `ModuleNotFoundError` this page probably wil
 
 ### Pylance
 
-First, make sure you installed the package. After installing it, reload VS Code (`workbench.action.reloadWindow`).
-If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
+First, make sure you installed the package. After installing it, reload VS Code (`workbench.action.reloadWindow`). If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
 
 ---
 
@@ -25,9 +24,7 @@ If you did everything right, the message should have disappeared. If it did not,
 
 Is the file that you are trying to import next to the file you try to import it from ("relative import")? _(please click)_
 
-<a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a>
-<a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a>
-<a href="#help-relative"><img src="/koviubi56/assets/what.png" alt="What? I don't get it." style="width: 5em;"></a>
+<a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a> <a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a> <a href="#help-relative"><img src="/koviubi56/assets/what.png" alt="What? I don't get it." style="width: 5em;"></a>
 
 ---
 
@@ -62,7 +59,7 @@ If you still don't get it, please, [give us your feedback](#feedback)!
 
 ### Relative
 
-Refer to: https://stackoverflow.com/a/43859946
+Refer to: [https://stackoverflow.com/a/43859946](https://stackoverflow.com/a/43859946)
 
 The guide is over. Bye!
 
@@ -72,8 +69,7 @@ The guide is over. Bye!
 
 Did you [install the package](/koviubi56/package)? _(please click)_
 
-<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
-<a href="/koviubi56/package"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="/koviubi56/package"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -95,8 +91,7 @@ For example (if you're on Windows): `py -3 main.py`.
 
 Did it work as expected? _(please click)_
 
-<a href="#yes"><img src="/koviubi56/assets/yes.png" alt="Yes, it did!" style="width: 5em;"></a>
-<a href="#no"><img src="/koviubi56/assets/no.png" alt="No, it did not!" style="width: 5em;"></a>
+<a href="#yes"><img src="/koviubi56/assets/yes.png" alt="Yes, it did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, it did not!" style="width: 5em;"></a>
 
 #### Yes
 
@@ -110,8 +105,7 @@ Hmm... interesting. You should check out [our guide for installing packages](/ko
 
 ### Win terminal
 
-We assume you have Windows 7 or above. Click on the Windows icon in the left corner. In the start menu, search for `cmd.exe`.
-Run it. Yayy, you opened the terminal!
+We assume you have Windows 7 or above. Click on the Windows icon in the left corner. In the start menu, search for `cmd.exe`. Run it. Yayy, you opened the terminal!
 
 ![Windows Icon](/assets/pyenv-winterminal-winicon.png)
 
@@ -157,12 +151,11 @@ I used Ubuntu (WSL).
 
 ### Feedback
 
-Thank you very much!
-You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/)!
+Thank you very much! You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/)!
 
 ---
 
 ### Other guides
 
-- https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/
-- https://careerkarma.com/blog/python-modulenotfounderror/
+- [https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/](https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/)
+- [https://careerkarma.com/blog/python-modulenotfounderror/](https://careerkarma.com/blog/python-modulenotfounderror/)

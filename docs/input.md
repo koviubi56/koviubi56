@@ -1,7 +1,6 @@
 ## input()
 
-The built-in function `input()` returns a **_string_** of what the user typed into the terminal, until the user presses return (enter).
-The new line (`\n`) is stripped.
+The built-in function `input()` returns a **_string_** of what the user typed into the terminal, until the user presses return (enter). The new line (`\n`) is stripped.
 
 ```py
 ans = input("What is your name? ")
@@ -13,6 +12,7 @@ print(ans)
 ```
 
 ### Input ain't int
+
 ```py
 # INCORRECT
 ans = input("How old are you? ")
@@ -45,11 +45,11 @@ print(name)
 
 ### Other guides
 
-- https://www.w3schools.com/python/python_user_input.asp
-- https://www.pythonforbeginners.com/basics/how-to-take-user-input-in-python
-- https://pynative.com/python-input-function-get-user-input/
-- https://www.educba.com/python-user-input/
-- https://www.tutorialspoint.com/python-get-a-list-as-input-from-user
+- [https://www.w3schools.com/python/python_user_input.asp](https://www.w3schools.com/python/python_user_input.asp)
+- [https://www.pythonforbeginners.com/basics/how-to-take-user-input-in-python](https://www.pythonforbeginners.com/basics/how-to-take-user-input-in-python)
+- [https://pynative.com/python-input-function-get-user-input/](https://pynative.com/python-input-function-get-user-input/)
+- [https://www.educba.com/python-user-input/](https://www.educba.com/python-user-input/)
+- [https://www.tutorialspoint.com/python-get-a-list-as-input-from-user](https://www.tutorialspoint.com/python-get-a-list-as-input-from-user)
 
 - [Video: "How to get Users input in Python"](https://youtu.be/1344J3t1by0?t=131)
 - [Video: "Getting Input From Users | Python | Tutorial 8"](https://youtu.be/1gEZi0uJ3sw)

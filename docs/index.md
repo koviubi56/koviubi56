@@ -14,7 +14,6 @@ Hi world!
 - [F-strings](/koviubi56/fstring)
 - [Built-in `input()`](/koviubi56/input)
 
-
 ### Documentation
 
 - [discord.py](/koviubi56/rtfd#discordpy)

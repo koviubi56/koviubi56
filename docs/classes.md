@@ -25,9 +25,7 @@ True
 
 ### `__init__`
 
-With the `__init__` method you can initialize the instance.
-Please note, that `__init__` does **not** _create_ the instance!
-`__init__` must return `None` (or should not return).
+With the `__init__` method you can initialize the instance. Please note, that `__init__` does **not** _create_ the instance! `__init__` must return `None` (or should not return).
 
 ```py
 >>> class MyClass:
@@ -49,8 +47,7 @@ True
 
 ### `__new__`
 
-With the `__new__` method you can create an instance of a class.
-Unless you absolutely need it, use `__init__` instead!
+With the `__new__` method you can create an instance of a class. Unless you absolutely need it, use `__init__` instead!
 
 ```py
 >>> class MyFirstClass:
@@ -109,9 +106,9 @@ AttributeError: type object 'MyClass' has no attribute 'arg'
 
 ### Other guides
 
-- https://www.w3schools.com/python/python_classes.asp
-- https://docs.python.org/3/tutorial/classes.html
-- https://www.geeksforgeeks.org/python-classes-and-objects/
+- [https://www.w3schools.com/python/python_classes.asp](https://www.w3schools.com/python/python_classes.asp)
+- [https://docs.python.org/3/tutorial/classes.html](https://docs.python.org/3/tutorial/classes.html)
+- [https://www.geeksforgeeks.org/python-classes-and-objects/](https://www.geeksforgeeks.org/python-classes-and-objects/)
 
 - [Video: "Python Classes and Objects || Python Tutorial || Learn Python Programming"](https://youtu.be/apACNr7DC_s)
 - [Video: "Python Object Oriented Programming (OOP) - For Beginners"](https://youtu.be/JeznW_7DlB0)

@@ -7,6 +7,7 @@ Press `CTRL+C`. This raises an `KeyboardInterrupt` error, which _can be catched_
 If you're on linux, you can also try `CTRL+Z`.
 
 If you want to exit _with code_, try these:
+
 - best: `sys.exit()`
 - still ok: `raise SystemExit`
 - please don't: `exit()` or `quit()`
@@ -14,10 +15,10 @@ If you want to exit _with code_, try these:
 
 ### Other guides
 
-- https://stackoverflow.com/a/285326
-- https://pythonguides.com/python-exit-command/
-- https://www.geeksforgeeks.org/how-to-exit-a-python-script/
-- https://www.askpython.com/python/examples/exit-a-python-program
-- https://www.pythonpool.com/python-exit/
+- [https://stackoverflow.com/a/285326](https://stackoverflow.com/a/285326)
+- [https://pythonguides.com/python-exit-command/](https://pythonguides.com/python-exit-command/)
+- [https://www.geeksforgeeks.org/how-to-exit-a-python-script/](https://www.geeksforgeeks.org/how-to-exit-a-python-script/)
+- [https://www.askpython.com/python/examples/exit-a-python-program](https://www.askpython.com/python/examples/exit-a-python-program)
+- [https://www.pythonpool.com/python-exit/](https://www.pythonpool.com/python-exit/)
 
 <!-- No video found. -->

@@ -1,9 +1,8 @@
-# pip and installing packages
+## pip and installing packages
 
 Did you get a `ModuleNotFoundError`? _(please click)_
 
-<a href="/koviubi56/pyenv"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
-<a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="/koviubi56/pyenv"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -25,18 +24,17 @@ What do you see? _(please click)_
 
 You got this, beacuse this command and other suggested commands in this tutorial are intended to be run in a _shell_ (also called a terminal or console). See the Python for Beginners [getting started tutorial](https://opentechschool.github.io/python-beginners/en/getting_started.html#what-is-python-exactly) for an introduction to using your operating system's shell and interacting with Python.
 
-If you're done, [start again](#).
+If you're done, [start again](#pip-and-installing-packages).
 
 ---
 
 ### NotFound
 
-If you're on Windows, make sure that you wrote `py --version`.
-If you're _**not**_ on Windows, make sure that you wrote `python3 --version`.
+If you're on Windows, make sure that you wrote `py --version`. If you're _**not**_ on Windows, make sure that you wrote `python3 --version`.
 
-If you _still_ get an error, try to install python from [python.org](https://www.python.org/) or refer to the [Installing Python](https://docs.python-guide.org/starting/installation/#installation) section of the Hitchhiker’s Guide to Python.
+If you _still_ get an error, try to install python from [python.org](https://www.python.org/) or refer to the [Installing Python](https://docs.python-guide.org/starting/installation/#installation) section of the Hitchhiker's Guide to Python.
 
-If you're done, [start again](#).
+If you're done, [start again](#pip-and-installing-packages).
 
 ---
 
@@ -46,9 +44,7 @@ Super! Now check if you have pip installed. If you're on Windows, run `py -m pip
 
 If you got something like `pip X.Y.Z from path/to/pip (python x.y)` click [here](#gotpip).
 
-If not, install pip.
-On Windows: `py -m ensurepip --default-pip`
-Everywhere else: `python3 -m ensurepip --default-pip`
+If not, install pip. On Windows: `py -m ensurepip --default-pip` Everywhere else: `python3 -m ensurepip --default-pip`
 
 **If** you got an error, download [`get-pip.py`](https://bootstrap.pypa.io/get-pip.py), and run it. [Warning!](#getpip-warning)
 
@@ -58,9 +54,7 @@ Then [try again](#pyver).
 
 ### Gotpip
 
-Great! Now make sure that pip, setuptools, and wheel is up-to-date.
-On Windows: `py -m pip install --upgrade pip setuptools wheel`
-Everywhere else: `python3 -m pip install --upgrade pip setuptools wheel`
+Great! Now make sure that pip, setuptools, and wheel is up-to-date. On Windows: `py -m pip install --upgrade pip setuptools wheel` Everywhere else: `python3 -m pip install --upgrade pip setuptools wheel`
 
 It is _optional_, but you can use a [virtual environment](https://packaging.python.org/en/latest/tutorials/installing-packages/#optionally-create-a-virtual-environment), but it is **optional**, not required.
 
@@ -80,6 +74,7 @@ What do you want? _(please click)_
 - [Install a package from a local src tree](#install-local)
 
 Advanced stuff:
+
 - [Installing from local archives](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-local-archives)
 - [Installing from other sources](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-other-sources)
 - [Installing Prereleases](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-prereleases)
@@ -89,9 +84,7 @@ Advanced stuff:
 
 #### Install latest
 
-On Windows: `py -m pip install "<packagename>"`
-Everywhere else: `python3 -m pip install "<packagename>"`
-**Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
+On Windows: `py -m pip install "<packagename>"` Everywhere else: `python3 -m pip install "<packagename>"` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
 
 And you are done! Have a good day!
 
@@ -99,9 +92,7 @@ And you are done! Have a good day!
 
 #### Install specific
 
-On Windows: `py -m pip install "<packagename>==<version>"`
-Everywhere else: `python3 -m pip install "<packagename>==<version>"`
-**Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
+On Windows: `py -m pip install "<packagename>==<version>"` Everywhere else: `python3 -m pip install "<packagename>==<version>"` **Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
 
 And you are done! Have a nice day!
 
@@ -109,9 +100,7 @@ And you are done! Have a nice day!
 
 #### Install upgrade
 
-On Windows: `py -m pip install --upgrade <packagename>`
-Everywhere else: `python3 -m pip install --upgrade <packagename>`
-**Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
+On Windows: `py -m pip install --upgrade <packagename>` Everywhere else: `python3 -m pip install --upgrade <packagename>` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
 
 And you are done! Have a wonderful day!
 
@@ -121,8 +110,7 @@ And you are done! Have a wonderful day!
 
 _If the file isn't named `requirements.txt`, then replave `requirements.txt` in the commands with the file's name!_
 
-On Windows: `py -m pip install -r requirements.txt`
-Everywhere else: `python3 -m pip install -r requirements.txt`
+On Windows: `py -m pip install -r requirements.txt` Everywhere else: `python3 -m pip install -r requirements.txt`
 
 And you are done! Have a lovely day!
 
@@ -132,16 +120,19 @@ And you are done! Have a lovely day!
 
 **Please make sure to replace the URLs, with the ones that you want.**
 
-For more information click [here]().
+For more information click [here](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-vcs).
 
 On Windows:
+
 ```text
 py -m pip install -e git+https://git.repo/some_pkg.git#egg=SomeProject          # from git
 py -m pip install -e hg+https://hg.repo/some_pkg#egg=SomeProject                # from mercurial
 py -m pip install -e svn+svn://svn.repo/some_pkg/trunk/#egg=SomeProject         # from svn
 py -m pip install -e git+https://git.repo/some_pkg.git@feature#egg=SomeProject  # from a branch
 ```
+
 Everywhere else:
+
 ```text
 python3 -m pip install -e git+https://git.repo/some_pkg.git#egg=SomeProject          # from git
 python3 -m pip install -e hg+https://hg.repo/some_pkg#egg=SomeProject                # from mercurial
@@ -157,8 +148,7 @@ And you are done! Have a good one!
 
 Go (change the working directory) to the root folder, that contains the `setup.py` file.
 
-On Windows: `py -m pip install -e .`
-Everywhere else: `python3 -m pip install -e .`
+On Windows: `py -m pip install -e .` Everywhere else: `python3 -m pip install -e .`
 
 _If you do **not** want to install it in editale mode, remove the `-e`._
 
@@ -168,7 +158,7 @@ And you are done! Goodbye!
 
 ### getpip warning
 
-**Warning**: Be cautious if you’re using a Python install that’s managed by your operating system or another package manager. get-pip.py does not coordinate with those tools, and may leave your system in an inconsistent state. You can use `python get-pip.py --prefix=/usr/local/` to install in `/usr/local` which is designed for locally-installed software. 
+**Warning**: Be cautious if you’re using a Python install that’s managed by your operating system or another package manager. get-pip.py does not coordinate with those tools, and may leave your system in an inconsistent state. You can use `python get-pip.py --prefix=/usr/local/` to install in `/usr/local` which is designed for locally-installed software.
 
 **Warning**: Make sure to download `get-pip.py` **securely**. So with a modern webbrowser, or with curl. The SSL certificates should be verified.
 
@@ -180,12 +170,13 @@ And you are done! Goodbye!
 
 ### Other guides
 
-- https://blog.quantinsti.com/installing-python-packages/#pypi
-- https://docs.python.org/3/installing/index.html
-- https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip
+- [https://blog.quantinsti.com/installing-python-packages/#pypi](https://blog.quantinsti.com/installing-python-packages/#pypi)
+- [https://docs.python.org/3/installing/index.html](https://docs.python.org/3/installing/index.html)
+- [https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip](https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip)
 
 Advanced:
-- https://stackoverflow.com/a/51646354
+
+- [https://stackoverflow.com/a/51646354](https://stackoverflow.com/a/51646354)
 <!-- TODO: ^^^^^^^^^^^^ -->
 
 - [Video: "Python Tutorial - 12.1 - Install Python Module (using pip)"](https://youtu.be/bij66_Jtoqs)

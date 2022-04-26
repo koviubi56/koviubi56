@@ -1,7 +1,6 @@
 ## F-strings
 
-Do you hate using `+` to put two strings together?
-Then this is your lucky day!
+Do you hate using `+` to put two strings together? Then this is your lucky day!
 
 ```py
 >>> f"Hi! I'm a useless f-string."
@@ -31,10 +30,10 @@ Then this is your lucky day!
 
 ### Other guides
 
-- https://datagy.io/python-f-strings/
-- https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/
-- https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
-- https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/
+- [https://datagy.io/python-f-strings/](https://datagy.io/python-f-strings/)
+- [https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/](https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/)
+- [https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)
+- [https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/)
 
 - [Video: "Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'"](https://youtu.be/BxUxX1Ku1EQ)
 - [Video: "Using f-strings in Python to format output"](https://youtu.be/ptlQiNju11k)
