@@ -40,7 +40,7 @@ If you're done, [start again](#no).
 
 ### Pyver
 
-Super! Now check if you have pip installed. If you're on Windows, run `py -m pip --version`, `python3 -m pip --version` otherwise.
+Super! Now check if you have pip installed. If you're on Windows, run `py -m pip --version`, otherwise run `python3 -m pip --version`.
 
 If you got something like `pip X.Y.Z from path/to/pip (python x.y)` click [here](#gotpip).
 
