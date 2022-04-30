@@ -16,7 +16,7 @@ print(ans)
 ```py
 # INCORRECT
 ans = input("How old are you? ")
-if ans < 18:  # !!!!! ERROR: TypeError: '<' not supported between instances of 'str' and 'int'>
+if ans < 18:  # !!!!! ERROR: TypeError: '<' not supported between instances of 'str' and 'int'
     print("no")
 if ans == 0:  # Will never work
     print("no")
