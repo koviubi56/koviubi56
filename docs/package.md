@@ -24,7 +24,7 @@ What do you see? _(please click)_
 
 You got this, beacuse this command and other suggested commands in this tutorial are intended to be run in a _shell_ (also called a terminal or console). See the Python for Beginners [getting started tutorial](https://opentechschool.github.io/python-beginners/en/getting_started.html#what-is-python-exactly) for an introduction to using your operating system's shell and interacting with Python.
 
-If you're done, [start again](#pip-and-installing-packages).
+If you're done, [start again](#no).
 
 ---
 
@@ -34,7 +34,7 @@ If you're on Windows, make sure that you wrote `py --version`. If you're _**not*
 
 If you _still_ get an error, try to install python from [python.org](https://www.python.org/) or refer to the [Installing Python](https://docs.python-guide.org/starting/installation/#installation) section of the Hitchhiker's Guide to Python.
 
-If you're done, [start again](#pip-and-installing-packages).
+If you're done, [start again](#no).
 
 ---
 
