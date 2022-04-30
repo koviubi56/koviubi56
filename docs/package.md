@@ -12,11 +12,11 @@ Great. First, make sure python is installed, with this command: `py --version` i
 
 What do you see? _(please click)_
 
-[![I see "Pyton X.Y.Z"](/assets/package-pyver.png)](#pyver)
+[![I see "Pyton X.Y.Z"](/assets/package-pyver.png)](#pyver),
 
-[![I see "Command not found"](/assets/package-notfound1.png)](#notfound)
+[![I see "Command not found"](/assets/package-notfound1.png)](#notfound), or
 
-[`[Clickable] NameError: name 'python' is not defined`](#nameerror)
+[`"NameError: name 'python' is not defined"`](#nameerror)
 
 ---
 
