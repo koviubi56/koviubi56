@@ -135,5 +135,5 @@ else:
 - [https://www.tutorialspoint.com/python-get-a-list-as-input-from-user](https://www.tutorialspoint.com/python-get-a-list-as-input-from-user)
 
 - [Video: "How to get Users input in Python"](https://youtu.be/1344J3t1by0?t=131)
-- [Video: "Getting Input From Users | Python | Tutorial 8"](https://youtu.be/1gEZi0uJ3sw)
+- [Video: "Getting Input From Users ! Python ! Tutorial 8"](https://youtu.be/1gEZi0uJ3sw)
 - [Video: "4 - Python and Getting User Input"](https://youtu.be/zWtFRd4dA_Y)
