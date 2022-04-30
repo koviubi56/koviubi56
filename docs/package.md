@@ -1,5 +1,7 @@
 ## pip and installing packages
 
+_After you’re done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
+
 Did you get a `ModuleNotFoundError`? _(please click)_
 
 <a href="/koviubi56/pyenv"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
@@ -48,6 +50,8 @@ If not, install pip. On Windows: `py -m ensurepip --default-pip` Everywhere else
 
 **If** you got an error, download [`get-pip.py`](https://bootstrap.pypa.io/get-pip.py), and run it. [Warning!](#getpip-warning)
 
+If you got an error while running `get-pip.py`, click [here](#feedback), and we'll try to make this guide better.
+
 Then [try again](#pyver).
 
 ---
@@ -80,13 +84,15 @@ Advanced stuff:
 - [Installing Prereleases](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-prereleases)
 - [Installing Setuptools "Extras"](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-setuptools-extras)
 
+[You didn't find the thing you are looking for?](#feedback)
+
 ---
 
 #### Install latest
 
 On Windows: `py -m pip install "<packagename>"` Everywhere else: `python3 -m pip install "<packagename>"` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
 
-And you are done! Have a good day!
+And you are done! Have a good day! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -94,7 +100,7 @@ And you are done! Have a good day!
 
 On Windows: `py -m pip install "<packagename>==<version>"` Everywhere else: `python3 -m pip install "<packagename>==<version>"` **Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
 
-And you are done! Have a nice day!
+And you are done! Have a nice day! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -102,7 +108,7 @@ And you are done! Have a nice day!
 
 On Windows: `py -m pip install --upgrade <packagename>` Everywhere else: `python3 -m pip install --upgrade <packagename>` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
 
-And you are done! Have a wonderful day!
+And you are done! Have a wonderful day! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -112,7 +118,7 @@ _If the file isn't named `requirements.txt`, then replave `requirements.txt` in 
 
 On Windows: `py -m pip install -r requirements.txt` Everywhere else: `python3 -m pip install -r requirements.txt`
 
-And you are done! Have a lovely day!
+And you are done! Have a lovely day! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -140,7 +146,7 @@ python3 -m pip install -e svn+svn://svn.repo/some_pkg/trunk/#egg=SomeProject    
 python3 -m pip install -e git+https://git.repo/some_pkg.git@feature#egg=SomeProject  # from a branch
 ```
 
-And you are done! Have a good one!
+And you are done! Have a good one! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -152,7 +158,7 @@ On Windows: `py -m pip install -e .` Everywhere else: `python3 -m pip install -e
 
 _If you do **not** want to install it in editale mode, remove the `-e`._
 
-And you are done! Goodbye!
+And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
 ---
 
@@ -165,6 +171,12 @@ And you are done! Goodbye!
 **Warning**: Using `get-pip.py` may require root or administrator privileges.
 
 [Go back](#pyver)
+
+---
+
+### Feedback
+
+You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/P40wmYOw6ysRqiGrgLnYjyOOTaF-a5loDr-7jhpm07Y/).
 
 ---
 
