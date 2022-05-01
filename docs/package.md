@@ -1,6 +1,6 @@
 ## pip and installing packages
 
-_After you’re done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
+_After you're done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
 
 Did you get a `ModuleNotFoundError`? _(please click)_
 
@@ -62,7 +62,7 @@ Did you get an error? _(please click)_
 
 ### No pip error
 
-**If** you got an error, download [`get-pip.py`](https://bootstrap.pypa.io/get-pip.py), and run it. [Warning!](#getpip-warning)
+**If** you got an error, download `get-pip.py` [from here](https://bootstrap.pypa.io/get-pip.py), and run it. [Warning!](#getpip-warning)
 
 Did you get an error? _(please click)_
 
@@ -185,7 +185,7 @@ And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
 ### getpip warning
 
-**Warning**: Be cautious if you’re using a Python install that’s managed by your operating system or another package manager. get-pip.py does not coordinate with those tools, and may leave your system in an inconsistent state. You can use `python get-pip.py --prefix=/usr/local/` to install in `/usr/local` which is designed for locally-installed software.
+**Warning**: Be cautious if you're using a Python install that's managed by your operating system or another package manager. get-pip.py does not coordinate with those tools, and may leave your system in an inconsistent state. You can use `python get-pip.py --prefix=/usr/local/` to install in `/usr/local` which is designed for locally-installed software.
 
 **Warning**: Make sure to download `get-pip.py` **securely**. So with a modern webbrowser, or with curl. The SSL certificates should be verified.
 
