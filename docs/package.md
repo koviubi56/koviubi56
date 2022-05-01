@@ -44,21 +44,42 @@ If you're done, [start again](#no).
 
 Super! Now check if you have pip installed. If you're on Windows, run `py -m pip --version`, otherwise run `python3 -m pip --version`.
 
-If you got something like `pip X.Y.Z from path/to/pip (python x.y)` click [here](#gotpip).
+Did you get something like `pip X.Y.Z from path/to/pip (python x.y)`? _(please click)_
 
-If not, install pip. On Windows: `py -m ensurepip --default-pip` Everywhere else: `python3 -m ensurepip --default-pip`
+<a href="#gotpip"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="#no-pip"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+
+---
+
+### No pip
+
+On Windows run: `py -m ensurepip --default-pip` Everywhere else run: `python3 -m ensurepip --default-pip`
+
+Did you get an error? _(please click)_
+
+<a href="#no-pip-error"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="#pyver"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+
+### No pip error
 
 **If** you got an error, download [`get-pip.py`](https://bootstrap.pypa.io/get-pip.py), and run it. [Warning!](#getpip-warning)
 
-If you got an error while running `get-pip.py`, click [here](#feedback), and we'll try to make this guide better.
+Did you get an error? _(please click)_
 
-Then [try again](#pyver).
+<a href="#no-pip-error-feedback"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="#pyver"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+
+---
+
+### No pip error feedback
+
+If you got an error while running `get-pip.py`, click [here](#feedback), and we'll try to make this guide better.
 
 ---
 
 ### Gotpip
 
-Great! Now make sure that pip, setuptools, and wheel is up-to-date. On Windows: `py -m pip install --upgrade pip setuptools wheel` Everywhere else: `python3 -m pip install --upgrade pip setuptools wheel`
+Great! Now make sure that pip, setuptools, and wheel is up-to-date. On Windows run: `py -m pip install --upgrade pip setuptools wheel` Everywhere else run: `python3 -m pip install --upgrade pip setuptools wheel`
 
 It is _optional_, but you can use a [virtual environment](https://packaging.python.org/en/latest/tutorials/installing-packages/#optionally-create-a-virtual-environment), but it is **optional**, not required.
 
@@ -90,7 +111,7 @@ Advanced stuff:
 
 #### Install latest
 
-On Windows: `py -m pip install "<packagename>"` Everywhere else: `python3 -m pip install "<packagename>"` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
+On Windows run: `py -m pip install "<packagename>"` Everywhere else run: `python3 -m pip install "<packagename>"` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
 
 And you are done! Have a good day! Could you please [give us your feedback](#feedback)?
 
@@ -98,7 +119,7 @@ And you are done! Have a good day! Could you please [give us your feedback](#fee
 
 #### Install specific
 
-On Windows: `py -m pip install "<packagename>==<version>"` Everywhere else: `python3 -m pip install "<packagename>==<version>"` **Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
+On Windows run: `py -m pip install "<packagename>==<version>"` Everywhere else run: `python3 -m pip install "<packagename>==<version>"` **Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
 
 And you are done! Have a nice day! Could you please [give us your feedback](#feedback)?
 
@@ -106,7 +127,7 @@ And you are done! Have a nice day! Could you please [give us your feedback](#fee
 
 #### Install upgrade
 
-On Windows: `py -m pip install --upgrade <packagename>` Everywhere else: `python3 -m pip install --upgrade <packagename>` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
+On Windows run: `py -m pip install --upgrade <packagename>` Everywhere else run: `python3 -m pip install --upgrade <packagename>` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
 
 And you are done! Have a wonderful day! Could you please [give us your feedback](#feedback)?
 
@@ -116,7 +137,7 @@ And you are done! Have a wonderful day! Could you please [give us your feedback]
 
 _If the file isn't named `requirements.txt`, then replave `requirements.txt` in the commands with the file's name!_
 
-On Windows: `py -m pip install -r requirements.txt` Everywhere else: `python3 -m pip install -r requirements.txt`
+On Windows run: `py -m pip install -r requirements.txt` Everywhere else run: `python3 -m pip install -r requirements.txt`
 
 And you are done! Have a lovely day! Could you please [give us your feedback](#feedback)?
 
@@ -128,7 +149,7 @@ And you are done! Have a lovely day! Could you please [give us your feedback](#f
 
 For more information click [here](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-vcs).
 
-On Windows:
+On Windows run:
 
 ```text
 py -m pip install -e git+https://git.repo/some_pkg.git#egg=SomeProject          # from git
@@ -137,7 +158,7 @@ py -m pip install -e svn+svn://svn.repo/some_pkg/trunk/#egg=SomeProject         
 py -m pip install -e git+https://git.repo/some_pkg.git@feature#egg=SomeProject  # from a branch
 ```
 
-Everywhere else:
+Everywhere else run:
 
 ```text
 python3 -m pip install -e git+https://git.repo/some_pkg.git#egg=SomeProject          # from git
@@ -154,7 +175,7 @@ And you are done! Have a good one! Could you please [give us your feedback](#fee
 
 Go (change the working directory) to the root folder, that contains the `setup.py` file.
 
-On Windows: `py -m pip install -e .` Everywhere else: `python3 -m pip install -e .`
+On Windows run: `py -m pip install -e .` Everywhere else run: `python3 -m pip install -e .`
 
 _If you do **not** want to install it in editale mode, remove the `-e`._
 
