@@ -4,7 +4,7 @@ _After you're done, **please** give us some [feedback](#feedback). It would **re
 
 Did you get a `ModuleNotFoundError`? _(please click)_
 
-<a href="/koviubi56/pyenv"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="/koviubi56/pyenv#is-relative"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -206,11 +206,6 @@ You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/P40w
 - [https://blog.quantinsti.com/installing-python-packages/#pypi](https://blog.quantinsti.com/installing-python-packages/#pypi)
 - [https://docs.python.org/3/installing/index.html](https://docs.python.org/3/installing/index.html)
 - [https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip](https://www.cac.cornell.edu/wiki/index.php?title=Install_Python_Packages_in_a_Python_virtual_environment#Install_Python_Modules_Using_pip)
-
-Advanced:
-
-- [https://stackoverflow.com/a/51646354](https://stackoverflow.com/a/51646354)
-<!-- TODO: ^^^^^^^^^^^^ -->
 
 - [Video: "Python Tutorial - 12.1 - Install Python Module (using pip)"](https://youtu.be/bij66_Jtoqs)
 - [Video: "Python Tutorial for Beginners 53 - How to use Pip and PyPI for managing Python packages"](https://youtu.be/sIan8TOz0GA?t=123)
