@@ -85,7 +85,7 @@ For example (if you're on Windows): `py -3 -m pip install pygame`
 
 Now, run your code _still in the terminal_
 
-If you're on Windows, run `py -3 <file>`, otherwise `python3 -m pip install <file>`. Of course, **replace `<file>` with the path to your code** (without the `<>`)!
+If you're on Windows, run `py -3 <file>`, otherwise `python3 <file>`. Of course, **replace `<file>` with the path to your code** (without the `<>`)!
 
 For example (if you're on Windows): `py -3 main.py`.
 
