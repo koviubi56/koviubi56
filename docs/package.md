@@ -135,7 +135,7 @@ And you are done! Have a wonderful day! Could you please [give us your feedback]
 
 #### Install file
 
-_If the file isn't named `requirements.txt`, then replave `requirements.txt` in the commands with the file's name!_
+_If the file isn't named `requirements.txt`, then replace `requirements.txt` in the commands with the file's name!_
 
 On Windows run: `py -m pip install -r requirements.txt` Everywhere else run: `python3 -m pip install -r requirements.txt`
 
