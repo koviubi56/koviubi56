@@ -69,7 +69,7 @@ The guide is over. Bye!
 
 Did you [install the package](/koviubi56/package#no)? _(please click)_
 
-<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="/koviubi56/package"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="/koviubi56/package#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
