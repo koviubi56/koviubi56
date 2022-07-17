@@ -191,7 +191,7 @@ And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
 **Warning**: Using `get-pip.py` may require root or administrator privileges.
 
-[Go back](#pyver)
+[Go back](#no-pip-error)
 
 ---
 
