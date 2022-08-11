@@ -1,6 +1,6 @@
 👋 Hi, I’m @koviubi56
 
-📫 Contact me [here](https://keybase.io/koviubi_56) (or [here](https://github.com/koviubi56/koviubi56/discussions))
+📫 Contact me [using Keybase](https://keybase.io/koviubi_56) or [with email](mailto:koviubi56@duck.com)
 
 <!-- Contact me MUST be in line 3 now and in the future! -->
 
