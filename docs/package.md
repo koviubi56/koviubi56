@@ -10,7 +10,7 @@ Did you get a `ModuleNotFoundError`? _(please click)_
 
 ## No
 
-Great. First, make sure python is installed, with this command: `py --version` if you're on Windows, `python3 --version` otherwise (run the command in a shell/terminal/consol).
+Great. First, make sure python is installed, with this command: `py --version` if you're on Windows, `python3 --version` otherwise (run the command in a shell/terminal/console).
 
 What do you see? _(please click)_
 
