@@ -1,5 +1,0 @@
-language: python
-python: 3.9
-script:
-  - cd docs
-  - for file in *; do      if [ -f "$file" ]; then          python3 -m doctest $file ;     fi ; done
