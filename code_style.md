@@ -103,7 +103,8 @@ Missing = _Missing()
 - The generics MUST be provided when using generic types (`list[str]`, `dict[str, int]`, ...).
 - `typing` generics (`typing.List`) SHOULD NOT be used. Instead, the normal ones (`list`) SHOULD be used.
 - The `if TYPE_CHECKING: import` style([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L74-L91)) MUST NOT be used. Additionally only type hinting something when `TYPE_CHECKING` is True MUST NOT be used([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L312-L327)).
-- If possible, most of the type hinting stuff imported from `typing` SHOULD be moved to `typing_extensions` for forward compatibility.
+- If possible, most of the type hinting stuff imported from `typing` SHOULD be moved to `typing_extensions` for compatibility, _unless_ the object being imported is already in `typing` on the oldest supported python version.
+- `collections.abc` SHOULD be used instead of `typing` for objects that are in both.
 
 ## Copyright
 
