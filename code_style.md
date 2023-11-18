@@ -75,7 +75,23 @@ Missing = _Missing()
 
 > Comments that contradict the code are worse than no comments.
 
-[PEP 8](https://peps.python.org/pep-0008/#comments)
+- The code should be in a logical order, where the basic stuff are at the beginning, and the more advanced things that use the basic things are defined later. For example:
+
+```py
+class Level:
+    DEBUG = 10
+    ...
+
+class LogEvent:
+    level: Level
+    ...
+
+class Logger:
+    ...
+    def format_message(self, event: LogEvent):
+        ...
+    ...
+```
 
 #### Variable names
 
