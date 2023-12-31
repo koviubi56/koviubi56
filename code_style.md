@@ -104,7 +104,7 @@ class Logger:
   - Module/Package/Class level docstrings MAY have a "Attributes" section
   - Docstrings SHOULD NOT have a Todo(s) section.
   - reStructuredText or anything like that MUST NOT be used (instead use markdown).
-  - Examples (doctests) MUST be put after the main description, and before the arguments (but the use of docstrings is OPTIONAL).
+  - Examples (doctests) MUST be put after the main description, and before the arguments.
   - Argument types in docstrings MUST reflect the type hints (so `:obj:int` and `list(str)` MUST NOT be used, `list[str]` MUST be used instead).
   - Argument types in docstrings MUST have `, optional` before the `)` if they are optional, and they MUST have `Defaults to x.` at the end.
   - Properties' and special/magic method's docstrings MUST be the same as if they were a normal regular function.
