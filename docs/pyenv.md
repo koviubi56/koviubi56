@@ -1,6 +1,8 @@
-## Problems with imports, environemts
+## Problems with imports, environments
 
 _After you're done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
+
+Note: **Do not** download python from the Microsoft Store! If you try to do this anyway, I guarantee you will be in a world of hurt. Instead, download it from the [official site](https://python.org)!
 
 The good old problem. First what happened/what do you see? _(please click)_
 
@@ -10,13 +12,13 @@ Or
 
 [ModuleNotFoundError](#is-relative)
 
-_If you got an exception other than `ModuleNotFoundError` this page probably will **not** help._
+_If you got an exception other than `ModuleNotFoundError` this page might not help._
 
 ---
 
 ### Pylance
 
-First, make sure you installed the package. After installing it, reload VS Code (`workbench.action.reloadWindow`). If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
+First, make sure you installed the package. After installing it, reload VS Code (`Developer: Reload window`). If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
 
 ---
 
@@ -24,7 +26,9 @@ First, make sure you installed the package. After installing it, reload VS Code 
 
 Is the file that you are trying to import next to the file you try to import it from ("relative import")? _(please click)_
 
-<a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a> <a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a> <a href="#help-relative"><img src="/koviubi56/assets/what.png" alt="What? I don't get it." style="width: 5em;"></a>
+<a href="#relative"><img src="/koviubi56/assets/yes.png" alt="Yes, it is!" style="width: 5em;"></a>
+<a href="#did-you-install"><img src="/koviubi56/assets/no.png" alt="No, it is not!" style="width: 5em;"></a>
+<a href="#help-relative"><img src="/koviubi56/assets/what.png" alt="What? I don't get it." style="width: 5em;"></a>
 
 ---
 
@@ -70,7 +74,8 @@ The guide is over. Bye!
 
 Did you [install the package](/koviubi56/package#no)? _(please click)_
 
-<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="/koviubi56/package#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="#modulenotfounderror"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="/koviubi56/package#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -80,19 +85,20 @@ The most common error, is that the package is installed, _in the wrong environme
 
 Open up the terminal _([Need more help with Windows?](#win-terminal))_.
 
-If you're on Windows, run `py -3 -m pip install <packagename>`, otherwise `python3 -m pip install <packagename>`. Of course, **replace `<packagename>` with the package's name** (without the `<>`)!
+If you're on Windows, run `py -3 -m pip install PACKAGE`, otherwise `python3 -m pip install PACKAGE`.
 
 For example (if you're on Windows): `py -3 -m pip install pygame`
 
 Now, run your code _still in the terminal_
 
-If you're on Windows, run `py -3 <file>`, otherwise `python3 <file>`. Of course, **replace `<file>` with the path to your code** (without the `<>`)!
+If you're on Windows, run `py FILE.py`, otherwise `python3 FILE.py`.
 
 For example (if you're on Windows): `py -3 main.py`.
 
 Did it work as expected? _(please click)_
 
-<a href="#yes"><img src="/koviubi56/assets/yes.png" alt="Yes, it did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, it did not!" style="width: 5em;"></a>
+<a href="#yes"><img src="/koviubi56/assets/yes.png" alt="Yes, it did!" style="width: 5em;"></a>
+<a href="#no"><img src="/koviubi56/assets/no.png" alt="No, it did not!" style="width: 5em;"></a>
 
 #### Yes
 
@@ -100,7 +106,7 @@ Well done! If you tried to run it in your text editor, and it did not work, make
 
 #### No
 
-Hmm... interesting. You should check out [our guide for installing packages](/koviubi56/package#no). It might help.
+Hmm... interesting. You should check out [our guide for installing packages](/koviubi56/package#no). It might help. We would also appreciate if you would [give feedback](#feedback)!
 
 ---
 
@@ -124,15 +130,15 @@ We assume you have Windows 7 or above. Click on the Windows icon in the left cor
 
 First, get the version of python.
 
-If you're on Windows, run `py -3 -VV`, otherwise `python3 -VV`. Remember what it says.
+If you're on Windows, run `py -VV`, otherwise `python3 -VV`. Remember what it says.
 
 Now, open up a python file (in VS Code). Click on the _Select interpreter_ button, in the corner in the status bar.
 
-Now select the interpreter that is the colsest to the one that python said above in the terminal.
+Now select the interpreter that is the closest to the one that python said above in the terminal. If you're in a _virtual environment (venv)_, ensure that you selected that!
 
 #### Windows
 
-![Type in "py -3 -VV"](/assets/pyenv-vscode-winpyver.png)
+![Type in "py -VV"](/assets/pyenv-vscode-winpyver.png)
 
 ![Click on "Select interpreter"](/assets/pyenv-vscode-interpreter.png)
 
@@ -152,7 +158,7 @@ I used Ubuntu (WSL).
 
 ### Feedback
 
-Thank you very much! You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/I6nKlsw+0HPdRsPLjiMs6Hd58P227Y8Tlw1td74myNs/)!
+Thank you very much! You can give us your feedback [by creating an issue](https://github.com/koviubi56/koviubi56/issues)!
 
 ---
 

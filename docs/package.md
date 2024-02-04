@@ -2,9 +2,12 @@
 
 _After you're done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
 
+Note: **Do not** download python from the Microsoft Store! If you try to do this anyway, I guarantee you will be in a world of hurt. Instead, download it from the [official site](https://python.org)!
+
 Did you get a `ModuleNotFoundError`? _(please click)_
 
-<a href="/koviubi56/pyenv#is-relative"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a> <a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
+<a href="/koviubi56/pyenv#is-relative"><img src="/koviubi56/assets/yes.png" alt="Yes, I did!" style="width: 5em;"></a>
+<a href="#no"><img src="/koviubi56/assets/no.png" alt="No, I did not!" style="width: 5em;"></a>
 
 ---
 
@@ -14,7 +17,7 @@ Great. First, make sure python is installed, with this command: `py --version` i
 
 What do you see? _(please click)_
 
-[![I see "Pyton X.Y.Z"](/assets/package-pyver.png)](#pyver),
+[![I see "Python X.Y.Z"](/assets/package-pyver.png)](#pyver),
 
 [![I see "Command not found"](/assets/package-notfound1.png)](#notfound), or
 
@@ -24,7 +27,7 @@ What do you see? _(please click)_
 
 ### NameError
 
-You got this, beacuse this command and other suggested commands in this tutorial are intended to be run in a _shell_ (also called a terminal or console). See the Python for Beginners [getting started tutorial](https://opentechschool.github.io/python-beginners/en/getting_started.html#what-is-python-exactly) for an introduction to using your operating system's shell and interacting with Python.
+You got this, because this command and other suggested commands in this tutorial are intended to be run in a _shell_ (also called a terminal or console). See the Python for Beginners [getting started tutorial](https://opentechschool.github.io/python-beginners/en/getting_started.html#what-is-python-exactly) for an introduction to using your operating system's shell and interacting with Python.
 
 If you're done, [start again](#no).
 
@@ -81,7 +84,7 @@ If you got an error while running `get-pip.py`, click [here](#feedback), and we'
 
 Great! Now make sure that pip, setuptools, and wheel is up-to-date. On Windows run: `py -m pip install --upgrade pip setuptools wheel` Everywhere else run: `python3 -m pip install --upgrade pip setuptools wheel`
 
-It is _optional_, but you can use a [virtual environment](https://packaging.python.org/en/latest/tutorials/installing-packages/#optionally-create-a-virtual-environment), but it is **optional**, not required.
+It is _optional_, but you can use a [virtual environment](https://packaging.python.org/en/latest/tutorials/installing-packages/#optionally-create-a-virtual-environment).
 
 Now you just need to install the package. Click [here](#final) for the final step.
 
@@ -111,7 +114,7 @@ Advanced stuff:
 
 #### Install latest
 
-On Windows run: `py -m pip install "<packagename>"` Everywhere else run: `python3 -m pip install "<packagename>"` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`; the quotes are recommended)
+On Windows run: `py -m pip install "PACKAGE"` Everywhere else run: `python3 -m pip install "PACKAGE"`
 
 And you are done! Have a good day! Could you please [give us your feedback](#feedback)?
 
@@ -119,7 +122,7 @@ And you are done! Have a good day! Could you please [give us your feedback](#fee
 
 #### Install specific
 
-On Windows run: `py -m pip install "<packagename>==<version>"` Everywhere else run: `python3 -m pip install "<packagename>==<version>"` **Of course, replace `<packagename>` with the package's name, and `<version>` with the version you want to install!** (Without the `<>`; the quotes are recommended)
+On Windows run: `py -m pip install "PACKAGE==VERSION"` Everywhere else run: `python3 -m pip install "PACKAGE==VERSION"`
 
 And you are done! Have a nice day! Could you please [give us your feedback](#feedback)?
 
@@ -127,7 +130,7 @@ And you are done! Have a nice day! Could you please [give us your feedback](#fee
 
 #### Install upgrade
 
-On Windows run: `py -m pip install --upgrade <packagename>` Everywhere else run: `python3 -m pip install --upgrade <packagename>` **Of course, replace `<packagename>` with the package's name!** (Without the `<>`)
+On Windows run: `py -m pip install --upgrade PACKAGE` Everywhere else run: `python3 -m pip install --upgrade PACKAGE`
 
 And you are done! Have a wonderful day! Could you please [give us your feedback](#feedback)?
 
@@ -177,7 +180,7 @@ Go (change the working directory) to the root folder, that contains the `setup.p
 
 On Windows run: `py -m pip install -e .` Everywhere else run: `python3 -m pip install -e .`
 
-_If you do **not** want to install it in editale mode, remove the `-e`._
+_If you do **not** want to install it in editable mode, remove the `-e`._
 
 And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
@@ -187,7 +190,7 @@ And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
 **Warning**: Be cautious if you're using a Python install that's managed by your operating system or another package manager. get-pip.py does not coordinate with those tools, and may leave your system in an inconsistent state. You can use `python get-pip.py --prefix=/usr/local/` to install in `/usr/local` which is designed for locally-installed software.
 
-**Warning**: Make sure to download `get-pip.py` **securely**. So with a modern webbrowser, or with curl. The SSL certificates should be verified.
+**Warning**: Make sure to download `get-pip.py` **securely**. So with a modern web browser, or with curl. The SSL certificates should be verified.
 
 **Warning**: Using `get-pip.py` may require root or administrator privileges.
 
@@ -197,7 +200,7 @@ And you are done! Goodbye! Could you please [give us your feedback](#feedback)?
 
 ### Feedback
 
-You can give us your feedback [here](https://cryptpad.fr/form/#/2/form/view/P40wmYOw6ysRqiGrgLnYjyOOTaF-a5loDr-7jhpm07Y/).
+You can give us your feedback [by creating an issue](https://github.com/koviubi56/koviubi56/issues).
 
 ---
 
