@@ -18,7 +18,7 @@ _If you got an exception other than `ModuleNotFoundError` this page might not he
 
 ### Pylance
 
-First, make sure you installed the package. After installing it, reload VS Code (`Developer: Reload window`). If you did everything right, the message should have disappeared. If it did not, follow the instructions [below](#modulenotfounderror).
+First, make sure you installed the package. After installing it, reload VS Code (`Developer: Reload window`). If you did everything right, the message should have disappeared. If it did not, follow the instructions [here](#selectenv-vscode).
 
 ---
 
@@ -130,11 +130,13 @@ We assume you have Windows 7 or above. Click on the Windows icon in the left cor
 
 First, get the version of python.
 
-If you're on Windows, run `py -VV`, otherwise `python3 -VV`. Remember what it says.
+If you're on Windows, run `py -VV`, otherwise `python3 -VV` (or you can also run `pip -V`). Remember what it says.
 
 Now, open up a python file (in VS Code). Click on the _Select interpreter_ button, in the corner in the status bar.
 
 Now select the interpreter that is the closest to the one that python said above in the terminal. If you're in a _virtual environment (venv)_, ensure that you selected that!
+
+And the warning should have disappeared. If not, continue [here](#modulenotfounderror).
 
 #### Windows
 
@@ -162,7 +164,7 @@ Thank you very much! You can give us your feedback [by creating an issue](https:
 
 ---
 
-### Other guides
+### Other great guides
 
-- [https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/](https://www.pythonpip.com/python-tutorials/how-to-solve-modulenotfounderror-in-python/)
-- [https://careerkarma.com/blog/python-modulenotfounderror/](https://careerkarma.com/blog/python-modulenotfounderror/)
+- [pip python mismatch](https://gist.github.com/n0Oo0Oo0b/8c12660aa08cb77bae00e8b043b76b5d)
+  
