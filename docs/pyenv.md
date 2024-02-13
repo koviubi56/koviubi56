@@ -1,5 +1,12 @@
 ## Problems with imports, environments
 
+<style>
+hr {
+    height: 2em;
+    margin: 5em;
+}
+</style>
+
 _After you're done, **please** give us some [feedback](#feedback). It would **really** help us make this website better for everyone._
 
 Note: **Do not** download python from the Microsoft Store! If you try to do this anyway, I guarantee you will be in a world of hurt. Instead, download it from the [official site](https://python.org)!
