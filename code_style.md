@@ -105,6 +105,8 @@ The guidelines stated here should only be used if it is reasonable, and it isn't
       ...
   ```
 
+- Instead of doing `from x import y`, `import x` MUST be done instead. However `typing`, `typing_extensions`, and `collections.abc` are exceptions, and MUST be used like `from x import y`.
+
 #### Docstrings
 
 - The [Google docstring style](https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html) MUST be used, BUT:
@@ -118,6 +120,7 @@ The guidelines stated here should only be used if it is reasonable, and it isn't
   - Properties' and special/magic methods' docstrings MUST be the same as if they were a normal regular function.
   - `self` MUST NOT be included in `Args`.
 - Every function SHOULD have a docstring, and they MAY have a doctest. Docstrings for functions that starts with an underscore (e.g. `_private`, `__really_private`, `__magic__`) is OPTIONAL.
+- Oxford commas MUST be used (not only in docstrings, everywhere).
 
 #### Type hinting
 
