@@ -85,6 +85,15 @@ The guidelines should only be used if it is reasonable, and it isn't required/no
   | The same project                                 | both are allowed  |
   | Everything else                                  | `import x`        |
 
+- Strings SHALL be broken into multiple lines like this (notice the spaces):
+
+  ```py
+  "This is a really"
+  " long string that is"
+  " broken up into"
+  " multiple lines."
+  ```
+
 #### I/O
 
 - For paths, `pathlib.Path` and [its methods](https://docs.python.org/3/library/pathlib.html) MUST be used.
@@ -132,7 +141,7 @@ with open("some_file.json", "rb") as file:
 - Type hints for local and/or private variables are OPTIONAL.
 - The generics MUST be provided when using generic types (`list[str]`, `dict[str, int]`, ...).
 - `typing` generics (`typing.List`) MUST NOT be used. The normal ones (`list`) SHALL be used instead.
-- The `if TYPE_CHECKING: import` style([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L74-L91)) MUST NOT be used. Additionally only type hinting something when `TYPE_CHECKING` is True([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L312-L327)) MUST NOT be used either.
+- The `if TYPE_CHECKING: import` style([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L74-L91)) SHOULD be avoided. Only type hinting something when `TYPE_CHECKING` is True([example](https://github.com/pydantic/pydantic/blob/5dd9b4f5ca5715ed2bd65378201473b45c419c89/pydantic/main.py#L312-L327)) MUST NOT be used (instead use strings as [forward references](https://docs.python.org/3/library/typing.html#typing.ForwardRef)). The `annotations` future statement MUST NOT be used.
 - If possible, most of the type hinting stuff imported from `typing` SHALL be moved to `typing_extensions` for compatibility, _unless_ the object being imported is already in `typing` on the oldest supported python version.
 - `collections.abc` SHALL be used instead of `typing` for objects that are in both.
 
